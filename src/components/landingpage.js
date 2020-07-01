@@ -8,7 +8,7 @@ const Landing = () => {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                        src="https://images.unsplash.com/photo-1592941713139-54ec3e3772be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                        src= "https://images.unsplash.com/photo-1545194827-db87df1649d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
                         alt="avatar"
                         className="avatar-img"
                         />

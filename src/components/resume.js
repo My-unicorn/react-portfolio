@@ -11,7 +11,7 @@ const Resume = () => {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="https://images.unsplash.com/photo-1591394093170-a2b3ea374716?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
+                src="https://images.unsplash.com/photo-1533323905636-7f0bfa0ba5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                 alt="avatar"
                 style={{ height: "250px", paddingTop: "2rem"}}
               />
