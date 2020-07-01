@@ -1,5 +1,6 @@
 import React from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell, CardTitle } from "react-mdl";
+
 
 
 const About = () => {
@@ -9,11 +10,12 @@ const About = () => {
       <Cell col={12}>
     
             <h2>Araya Nawrath</h2>
-            <img src = "https://images.unsplash.com/photo-1521863298757-8636aa338721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            <img src = "https://images.unsplash.com/photo-1533323905636-7f0bfa0ba5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
               alt="me"
               style={{ height: "250px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+            <CardTitle><h2>My Story</h2></CardTitle>
+            <p style={{ margin: "auto" , fontSize: "24px" }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
