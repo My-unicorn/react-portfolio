@@ -98,12 +98,13 @@
 /* contact page css */
 
 .avatar-img {
-  height: 250px;
+  height: 300px;
+  width: 400px;
   padding-top: 5em;
 }
 
 .banner-text {
-  background-color: black;
+  background-color: darkbrown;
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -151,5 +152,18 @@
 .social-links i {
   color: white;
   font-size: calc(4vw + 20px);
+  padding: 8px;
+}
+
+.reference-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.reference-links i {
+  color: white;
+  font-size: 5em;
   padding: 8px;
 }
