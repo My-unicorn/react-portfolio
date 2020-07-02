@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Cell, CardTitle } from "react-mdl";
+import { Grid, Cell,} from "react-mdl";
 
 
 
@@ -14,14 +14,18 @@ const About = () => {
               alt="me"
               style={{ height: "250px" }}
             />
-            <CardTitle><h2>My Story</h2></CardTitle>
-            <p style={{ margin: "auto" , fontSize: "24px" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+            <h4 style={{ color: "grey" }}>My Story</h4>
+            <hr syle={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+          
+          
+            <p>
+            I am a Full stack web developer adept at building responsive web application from front to back. Passionate about learing teachnologies, bring ideas to life, and working with delicated teams to build efficient and robust application suited to the user's needs.
+
+Skill:HTML, CSS, Javascript, MongoDB, Express, React, Node, AJAX, JQuery, SQL, Git
+
+Education:University of Connecticut(Full Stack Web Development Bootcamp) An intensive 6-month long coding bootcamp in which I learned to design and build web application from the front-end to back-end with the MERN stack (MongoDB, Express.js, Node.js).
+
+Rajamangala University of Technology Bangkok Thailand(Bachelor's in Information Systems Technology BICIS).
             </p>
           </Cell>
           </Grid>

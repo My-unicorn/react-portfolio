@@ -18,12 +18,10 @@ const Resume = () => {
             </div>
 
             <h2 style={{ paddingTop: "2em" }}>Araya Nawrath</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
             <hr syle={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+            I am Full stack web developer adept at building responsive web application from front to back. Passionate about learning teachnologies, bring ideas to life, and working with delicated teams to build efficient and robust application suited to the user's needs..
             </p>
             <hr syle={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Phone</h5>
@@ -38,26 +36,18 @@ const Resume = () => {
             <Education
               startYear={2006}
               endYear={2009}
-              schoolName="Rajamokala University Thailand"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since"
+              schoolName="Rajamangala University of Technology Bangkok Thailand"
+              schoolDescription="Bachelor's in Information Systems Technology BICIS"
             />
 
-            <hr style={{ borderTop: "3px solid #e22947" }} />
-
-            <h2>Experience</h2>
-            <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since"
+           <Education
+              startYear={2020}
+              endYear={2020}
+              schoolName="University of Connecticut(Full Stack Web Development Bootcamp)"
+              schoolDescription="Full Stack Web Development Bootcamp"
             />
 
-            <Experience
-              startYear={2012}
-              endYear={20114}
-              jobName="Second Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since"
-            />
+            
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skills 

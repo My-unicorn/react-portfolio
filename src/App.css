@@ -179,7 +179,7 @@
 }
 
 .aboutme-grid {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   width: 80%;
   height: 550px;
@@ -194,6 +194,7 @@
 
 .aboutme-grid p {
   font-family: "Oxygen", sans-serif;
+  
   font-weight: bold;
 }
 
