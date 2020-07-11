@@ -8,7 +8,7 @@ const Landing = () => {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                        src= "https://images.unsplash.com/photo-1533323905636-7f0bfa0ba5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                        src= {process.env.PUBLIC_URL + '/mee.jpg'}
                         alt="avatar"
                         className="avatar-img"
                         />

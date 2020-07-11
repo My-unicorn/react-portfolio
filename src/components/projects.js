@@ -14,7 +14,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ height: '176px', background: 'url(https://hackernoon.com/drafts/ux832eqm.png) center / cover' }}>
+            <CardTitle style={{ height: '176px', background: 'url(https://www.google.com/url?sa=i&url=http%3A%2F%2Ffrankwich.com%2Fburger.html&psig=AOvVaw1KeX9S618mh_D4Hi4zF1YT&ust=1594486173380000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCP1-2Rw-oCFQAAAAAdAAAAABAE) center / cover' }}>
               React Project #1
                     </CardTitle>
             <CardText>
@@ -79,9 +79,9 @@ class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Vanilla JS/JQuery</Tab>
-          <Tab>Full Stack</Tab>
-          <Tab>Command Line Interface</Tab>
+          <Tab> Projects</Tab>
+          {/* <Tab>Projects</Tab> */}
+          {/* <Tab>Team Projects</Tab> */}
         </Tabs>
 
         <Grid>
