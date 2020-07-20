@@ -51,21 +51,28 @@ const Resume = () => {
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skills 
-            skill="javascript"
-            progress={80}
+            skill="JavaScript"
+            progress={90}
             />
             <Skills 
             skill="HTML/CSS"
-            progress={80}
+            progress={90}
             />
             <Skills 
             skill="NodeJS"
-            progress={70}
+            progress={90}
             />
             <Skills 
             skill="React"
-            progress={50}
+            progress={90}
             />
+           <Skills 
+            skill="Database"
+            progress={90}
+            />
+
+
+
           </Cell>
         </Grid>
       </div>

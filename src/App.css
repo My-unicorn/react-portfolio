@@ -4,28 +4,25 @@
   background: -webkit-linear-gradient(
     to right,
     pink,
-    gray,
-    gold
+    gray
+    
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     pink,
-    gray,
-    gold
+    gray
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .landing-grid {  background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    pink,
-    gray,
-    gold
+pink,
+    gray
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    pink,
-    gray,
-    gold
+  pink,
+    gray
     
   );
   text-align: center;
@@ -48,7 +45,7 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: pink;
+  background: gray;
   color: white;
   padding: 2em;
 }
