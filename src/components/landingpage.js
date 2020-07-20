@@ -29,7 +29,7 @@ const Landing = () => {
                             </a>
 
                             <a href="https://www.arayanawrath.com" target="_blank" rel="noopener noreferrer">
-                                <i className="fa fa-twitter-square" aria-hidden="true" />
+                                <i className="fa fa-share-square" aria-hidden="true" />
                             </a>
 
                         </div>
